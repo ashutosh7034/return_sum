@@ -1,0 +1,10 @@
+function calculateSum(num1, num2) {
+  var sum = num1 + num2;
+  return sum;
+}
+
+var number1 = 10;
+var number2 = 5;
+
+var result = calculateSum(number1, number2);
+console.log("The sum of " + number1 + " and " + number2 + " is: " + result);
